@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/dark_bg">
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:weightSum="2">
+
+        <Spinner
+            android:id="@+id/fromCurrencySpinner"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginEnd="12dp" />
+
+        <Spinner
+            android:id="@+id/toCurrencySpinner"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginStart="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

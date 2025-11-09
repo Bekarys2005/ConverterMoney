@@ -1,0 +1,15 @@
+<resources>
+    <!-- Зеленые оттенки -->
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_700">#388E3C</color>
+
+    <!-- Светлая тема -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_200">#EEEEEE</color>
+
+    <!-- Тёмная тема -->
+    <color name="dark_bg">#121212</color>
+    <color name="dark_text">#E0E0E0</color>
+    <color name="dark_edit_bg">#1E1E1E</color>
+</resources>
